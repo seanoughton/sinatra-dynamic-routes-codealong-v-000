@@ -19,7 +19,7 @@ class App < Sinatra::Base
     "Goodbye, #{@name}."
   end
 
-  get "/goodbye/:name" do
+  get "/goodbye/:num/:num2" do
 
   end
 
