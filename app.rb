@@ -19,5 +19,9 @@ class App < Sinatra::Base
     "Goodbye, #{@name}."
   end
 
+  get "/goodbye/:name" do
+
+  end
+
 
 end
