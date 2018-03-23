@@ -20,6 +20,8 @@ class App < Sinatra::Base
   end
 
   get "/goodbye/:num/1:num2" do
+    @num1 = params[:num1]
+    @num2 = params[:num2]
     <%= =>
   end
 
